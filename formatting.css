@@ -25,3 +25,9 @@
   background-color: #b1c9ad;
   color: white;
 }
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
