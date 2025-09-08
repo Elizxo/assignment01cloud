@@ -1,0 +1,84 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.clusterNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonCluster {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardRow {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clusterCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 3fr 6fr;
+}
+
+.complexGallery {
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 6fr);
+ grid-auto-flow: row;
+}
+
+.wide {
+  grid-column: span 5;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.huge {
+  grid-column: span 4;
+  grid-row: span 5;
+}
+/* new code */ 
+.topnav {
+  background-color: #708090;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #b1c9ad;
+  color: white;
+}
