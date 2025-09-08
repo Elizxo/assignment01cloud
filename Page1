@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Page</title>
+  <link rel="stylesheet" href="formatting.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="topnav">
+    <a href="index.html">Home Page 1</a>
+    <a class="active" href="exercises.html">Page 2</a>
+  </div>
+
+  <div style="padding:20px;">
+    <h1>My Photo Page</h1>
+    <img src="https://elizabethrassignment1.s3.us-east-2.amazonaws.com/mycloudimage.jpg" alt="My Cloud Image">
+    <a href="index.html">Back to Home</a>
+  </div>
+
+</body>
+</html>
