@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Page</title> 
+</head>
+<body>
+    <h1>My Photo Page</h1>
+    <img src="https://elizabethrassignment1.s3.us-east-2.amazonaws.com/mycloudimage.jpg" alt="My Cloud Image">
+    <p>This image is hosted on my AWS S3 bucket.</p>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
