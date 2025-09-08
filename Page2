@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="formatting.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="topnav">
+    <a class="active" href="index.html">Home Page 1</a>
+    <a href="exercises.html">Page 2</a>
+  </div>
+
+  <div style="padding:20px;">
+    <h1>My Website</h1>
+    <h2>Elizabeth Serrano</h2>
+    <p>
+      Hi, my name is Elizabeth Serrano. I currently attend Kennesaw State University (2024), 
+      where I am pursuing a major in Computer Science with a minor in Software Engineering. 
+      Before transferring to Kennesaw State, I spent two years at Georgia Southern University, 
+      where I was involved in student life there. During my time there, I served as a public representative 
+      for the Latin Club, helping bring awareness to the organization. At KSU, I continue to expand 
+      my academic and professional interests by participating in organizations such as the Society 
+      of Women Engineers. I plan to graduate in June 2026 with a Bachelor of Science in Computer Science.
+    </p>
+    <p>Created for my SWE 4633 class</p>
+  </div>
+
+</body>
+</html>
